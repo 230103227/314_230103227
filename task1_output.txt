@@ -1,0 +1,16 @@
+Enter your Student ID: 230103227
+
+TASK 1 — Row-Major vs. Column-Major
+Student ID: 230103227
+Logical cores: 4
+Physical cores used: 4
+Matrix size: 8000 x 8000
+Data type: float64
+
+Mode A (Row-Major): 190.68 ms
+Mode B (Column-Major): 1637.14 ms
+Cache penalty factor: 8.59x
+Mode A sum: 32001612.2903631628
+Mode B sum: 32001612.2903632075
+
+Results saved to task1_output.txt
