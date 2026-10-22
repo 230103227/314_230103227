@@ -1,0 +1,8 @@
+TASK 3 — Prefix Scan
+Student ID: 230103227
+Array size: 2000000
+Parallel workers: 4
+Serial Time: 496.00 ms
+Parallel Time: 8.63 ms
+Speedup: 57.45x
+Verification Status: PASS
