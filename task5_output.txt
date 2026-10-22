@@ -1,0 +1,18 @@
+TASK 5 — Thread Oversubscription Threshold
+Logical CPU cores: 4
+CPU-bound tasks: 10000
+SHA-256 rounds per task: 500
+
+   Pool Size |  Execution Time (ms) |    Speedup | Status
+---------------------------------------------------------------------------
+           1 |             16897.80 |      1.00x | OK
+           2 |              9544.36 |      1.77x | OK
+           4 |              9892.30 |      1.71x | FIRST WORSENING
+           8 |             10335.14 |      1.63x | SLOWER
+          16 |              9779.97 |      1.73x | OK
+          64 |             11435.71 |      1.48x | SLOWER
+         256 |             17129.82 |      0.99x | SLOWER
+
+First observed worsening: pool size 4
+This is the first tested pool size slower than the previous tested size.
+Note: timing alone cannot prove that OS context switching is the sole cause.
