@@ -1,0 +1,9 @@
+TASK 4 — Host-to-Host IPC Transfer Profile
+Mode: CPU-only
+Repeats per size: 3
+Times are median round-trip times, including receiver checksum.
+
+N | Path A IPC/Pickle (ms) | Path B Shared Memory (ms) | Difference (ms)
+100000 | 0.92 | 0.19 | 0.73
+1000000 | 8.88 | 0.90 | 7.99
+10000000 | 89.17 | 6.83 | 82.34
