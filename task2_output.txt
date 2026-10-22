@@ -1,0 +1,21 @@
+TASK 2 — PRNG State Bottleneck
+Student ID: 230103227
+Logical CPU count: 4
+Sample points: 40,000,000
+Threads: 4
+
+TASK 2 — PRNG State Bottleneck
+Student ID: 230103227
+Logical CPU count: 4
+Sample points: 40000000
+Threads: 4
+
+Shared PRNG computed pi: 3.1415820000
+Shared PRNG absolute error: 0.0000106536
+Shared PRNG wall time: 216.99 ms
+
+Independent PRNG computed pi: 3.1415813000
+Independent PRNG absolute error: 0.0000113536
+Independent PRNG wall time: 147.90 ms
+
+Speedup factor: 1.47x
